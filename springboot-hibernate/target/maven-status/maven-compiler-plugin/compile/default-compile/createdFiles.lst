@@ -1,0 +1,12 @@
+com\albino\hibernatedemo\service\StudentServiceImpl.class
+com\albino\hibernatedemo\rest\StudentRestController.class
+com\albino\hibernatedemo\exceptions\StudentNotFoundException.class
+com\albino\hibernatedemo\entity\Student.class
+com\albino\hibernatedemo\security\UserDetailsManagerExt.class
+com\albino\hibernatedemo\entity\dao\StudentDAO.class
+com\albino\hibernatedemo\entity\dao\StudentDAOImpl.class
+com\albino\hibernatedemo\entity\dao\StudentRepository.class
+com\albino\hibernatedemo\HibernatedemoApplication.class
+com\albino\hibernatedemo\service\StudentService.class
+com\albino\hibernatedemo\entity\ErrorResponse.class
+com\albino\hibernatedemo\exceptions\GlobalExceptionHandler.class
