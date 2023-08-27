@@ -17,7 +17,14 @@ public class UserDetailsManagerExt {
                                 .password("{noop}albino")
                                 .roles("ADMIN")
                                 .build();
-        return new InMemoryUserDetailsManager(albino);
+
+        UserDetails samuel = User.builder()
+                                .username("samuel")
+                                .password("{noop}samuel")
+                                .roles("STUDENT")
+                                .build();
+
+        return new InMemoryUserDetailsManager(albino,samuel);
 
     }
 }
